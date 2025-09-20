@@ -38,3 +38,4 @@ he Spots project utilizes responsive design which is when your webpage is able t
 #Deployment
 
 This webpage is deployed via Github Pages.
+Deployment Link: "https://jilminimal.github.io/se_project_spots/"
