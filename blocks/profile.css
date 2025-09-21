@@ -67,7 +67,7 @@
     height: 52px;
     border-radius: 8px;
     border-style: none;
-    background-color: rgba(252, 245, 229, 1);
+    background-color: rgba(33, 33, 33, 1);
     color: rgba(252, 245, 229, 1);
 }
 
@@ -112,6 +112,5 @@
         margin-top: 16px;
         width: 100%;
         gap: 8px;
-        padding: 18px 32px 18px 32px;
     }
 }
