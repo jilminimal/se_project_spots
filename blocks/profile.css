@@ -4,7 +4,7 @@
     margin: 0 auto;
     padding: 34px 0 20px;
     border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-style: normal;
 }
@@ -13,7 +13,7 @@
     margin-right: 20px;
     height: 190px;
     width: 190px;
-    border-radius: 5%;
+    border-radius: 8px;
     gap: 12px;
 }
 
@@ -45,17 +45,17 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     max-width: 420px;
-    font-family: Poppins, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-weight: 500;
-    font-style: medium;
     line-height: 100%;
     font-size: 16px;
     color: #333333;
+    opacity: 0.7;
 }
 
 .profile__edit-button {
     margin-top: auto;
-    font-family: Poppins;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
@@ -124,5 +124,6 @@
         margin-top: 16px;
         width: 100%;
         gap: 8px;
+        justify-content: center;
     }
 }

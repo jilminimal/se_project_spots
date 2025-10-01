@@ -2,13 +2,12 @@
     width: 413px;
 }
 
-
 .card__image {
     height: 413px;
     object-fit: cover;
     width: 413px;
     display: block;
-    border-radius: 5%;
+    border-radius: 8px;
 }
 
 .card__content {
@@ -26,20 +25,41 @@
     opacity: 40%;
 }
 
+.card__like-button:hover {
+    cursor: pointer;
+}
+
 .card__title {
     max-width: 445px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    font-family: Poppins; sans serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 120%;
 }
-}
 
 @media screen and (max-width: 627px) {
     .card__image {
-        height: 413px;
+        height: 288px;
+    }
+
+    .card__image {
+        width: 288px;
+        height: 288px;
+    }
+
+    .card {
+        width: 288px;
+    }
+
+    .card__title {
+        font-size: 16px;
+    }
+
+    .card__like-button {
+        width: 20px;
+        height: 18px;
+        background-size: 20px 18px;
     }
 }
